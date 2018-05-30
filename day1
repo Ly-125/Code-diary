@@ -1,0 +1,61 @@
+# Web
+<!doctype html>
+  <html>
+	<head><!--头部 给浏览器和搜索引擎看的信息-->
+		<meta charset="UTF-8">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Document</title>
+			<style>
+		div{
+		 width:1010px;
+		 height:200px;
+		 background-color:#6600ff;
+		margin:200px auto;
+
+		}
+		div a{
+		text-decoration:none;
+		display:inline-block;
+		width:194px;
+		height:270px;
+		padding-top:30px;
+
+		background-color:#ccff00；
+		background-image:url('');
+		 background-repeat:no-repeat;
+		 background-position:center 110px;
+		 font-size:14px;
+
+		 color:#00ffff;
+  
+		 text-align:center;
+		 transition:0.5s;
+
+
+		 }
+		 div a:nth-child(2){
+		 backgroud-image:url('');
+		 }
+		 div a:hover{
+  
+		 background-psition:center 100px;
+
+		}
+		div a h3{
+		font-size:24px;
+		margin-bottom:5px;
+
+		 }
+		</style>
+	</head>
+ <body>
+
+	<div>
+		<a href='#'>
+			<h3>GOOD</h3>
+			<p>.....<p>
+		</a>
+  </div>
+ </body>
+</html>
